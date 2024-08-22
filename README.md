@@ -1,51 +1,34 @@
 <p align="center">
   <a href="https://retromusic.app">
     <img src="app\src\main\ic_launcher-web.png" height="128">
-    <h1 align="center">Retro Music Player 🎵</h1>
+    <h1 align="center">Nero Music Player 🎵</h1>
   </a>
 </p>
-<p align="center">
-  <a href="https://github.com/RetroMusicPlayer/RetroMusicPlayer" style="text-decoration:none" area-label="Android">
-    <img src="https://img.shields.io/badge/Platform-Android-green.svg">
-  </a>
-  <a href="https://github.com/RetroMusicPlayer/RetroMusicPlayer/actions/workflows/android.yml" style="text-decoration:none" area-label="Build Status">
-    <img src="https://github.com/RetroMusicPlayer/RetroMusicPlayer/actions/workflows/android.yml/badge.svg">
-  </a>
-  <a href="https://github.com/RetroMusicPlayer/RetroMusicPlayer" style="text-decoration:none" area-label="Min API: 21">
-    <img src="https://img.shields.io/badge/minSdkVersion-21-green.svg">
-  </a>
-  <a href="https://play.google.com/store/apps/details?id=code.name.monkey.retromusic" style="text-decoration:none" area-label="Play Store">
-    <img src="https://img.shields.io/badge/Download-Google_Play-green.svg">
-  </a>
-  <a href="https://github.com/RetroMusicPlayer/RetroMusicPlayer/blob/master/LICENSE.md" style="text-decoration:none" area-label="License: GPL v3">
-    <img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg">
-  </a>
-  <a href="https://twitter.com/retromusicapp" style="text-decoration:none" area-label="Twitter Follow">
-    <img src="https://img.shields.io/twitter/follow/retromusicapp?style=social">
-  </a>
-  <a href="https://crowdin.com/project/retromusicplayer" style="text-decoration:none" area-label="Crowdin">
-    <img src="https://badges.crowdin.net/retromusicplayer/localized.svg">
-  </a>
 
-</p>
-
-___
-# We're looking for more contributors and maintainers!
-# If you'd like to be a maintainer, please DM us on [Telegram](https://telegram.me/Daksh777) or [Twitter](https://twitter.com/0xDPJ)
-# All contributions are welcome!
-___
-
-## 🆕 Material You Design Music Player for Android music lovers 
+## 🆕 Nero Music Player
+Material You Design Music Player for Android music lovers 
 
 ## Download
-| Play Store | F-Droid |
-|:-:|:-:|
-| [<img src="assets/google-play-badge.png" height="80">](https://play.google.com/store/apps/details?id=code.name.monkey.retromusic) | [<img src="https://f-droid.org/badge/get-it-on.png" height="80">](https://f-droid.org/en/packages/code.name.monkey.retromusic/) |
+Get it from the [GitHub Releases](https://github.com/nightznero/NeroMusicPlayer/releases).
 
-or get it from the [GitHub Releases](https://github.com/RetroMusicPlayer/RetroMusicPlayer/releases).
-
-## ⚠ Join [@retromusiclog](https://telegram.me/retromusiclog) on Telegram for important updates.
-___
+## Differences between [NeroMusicPlayer](https://github.com/nightznero/NeroMusicPlayer) and [RetroMusicPlayer](https://github.com/h4h13/RetroMusicPlayer)
+- Google Play libraries removed (full libs)
+- Pro features available for free
+- Fully offline (INTERNET permission removed)
+- Auto-Boot disabled (Receiving Auto-Boot permission removed)
+- Bug fixes
+- Minor differences in UI
+- Remove screen capture restriction (Removed the restriction of capturing audio that normally wouldn't allow it)
+- Remove screenshot restriction (Removed the restriction of taking screenshots that normally wouldn't allow it)
+- Spoof SIM country (Spoofed country information returned by the SIM card provider) [USA]
+- Spoof build info (Spoofed the information about the current build;Board,Bootloader,Brand,CPU,Device,Display,Fingerprint,Hardware,Host,ID,Manufacturer,Model,ODM,Product,Radio,Serial,SKU,SOC,Tags,Time,Type,User)
+- Redistributed dex
+- Made app nodpi (Removed all usuless supported screen DPI;mdpi,hdpi,xhdpi,xxhdpi,xxxhdpi)
+- Removed Debug Information (Source,Line,Param,Prologue,Local)
+- Zipaligned Apk
+- Recompressed Classes.dex
+- Cleaned & Optimized resources (Images and Audio files packaged in the store method and aligned in 4K)
+- Ultra Recompressed
 
 ## 📱 Screenshots
 ### App Themes
@@ -93,7 +76,6 @@ favorite songs. No other music player has this feature.
 
 ## 📦 Included Features
 -  Base 3 themes (Clearly White, Kinda Dark and Just Black)
--  Chromecast support
 -  Choose from 10+ now playing themes
 -  Driving Mode
 -  Headset/Bluetooth support
@@ -115,35 +97,16 @@ favorite songs. No other music player has this feature.
 -  Create, edit and import playlists
 -  Playing queue with reorder
 -  User profile
--  30+ languages support (help translate the project: [Crowdin](https://crowdin.com/project/retromusicplayer)
+-  30+ languages support
 -  Browse and play your music by songs, albums, artists, playlists and
   genre
 -  Smart Auto Playlists - Recently played, most played and history
 -  Build your playlist on the go
 
-We are trying our best to bring you the best user experience. The app is regularly updated for bug fixes and new features.
-
-___
-
-
-## ❓ FAQ
-Please read the FAQ [here](https://retromusic.app/faq.html)
-
-In any case, if you find or notice any bugs please report them by creating an issue or by contacting us in the [Telegram help & feedback group](https://t.me/retromusicapp).
-If you have any feature suggestions, please create an issue with detailed information or by contacting us in the [Telegram suggestions group](https://t.me/retro_music_suggestion).
-
-## 🔗 Social links
-**Telegram:** https://t.me/retromusicapp <br>
-**Instagram:** https://instagram.com/retromusicapp <br>
-**Crowdin**: https://crowdin.com/project/retromusicplayer <br>
-**Pinterest:** https://pinterest.com/retromusicapp <br>
-**Twitter:** https://twitter.com/retromusicapp <br>
-
 ## 🗂️ License
 
-Retro Music Player is released under the GNU General Public License v3.0
+Nero Music Player is released under the GNU General Public License v3.0
 (GPLv3), which can be found [here](LICENSE.md)
 
 
->Please note: Retro Music Player is a local music player app. It
->doesn't support music downloading or online music streaming.
+>Please note: Nero Music Player is a fully offline (local) music player app. It doesn't support music downloading or online music streaming.
